@@ -1,0 +1,35 @@
+{
+    "name": "Ban all",
+    "description": "HELP YOU TO BANALL MEMBERS IN MINUTES",
+    "repository": "https://github.com/",
+    "image": "heroku/python",
+    "env": {
+        "TELEGRAM_TOKEN1": {
+        "description": "Get this value from @BotFather"
+        },
+        "TELEGRAM_TOKEN2": {
+        "description": "Get this value from @BotFather"
+        },
+        "TELEGRAM_TOKEN3": {
+        "description": "Get this value from @BotFather"
+        },
+        "TELEGRAM_TOKEN4": {
+        "description": "Get this value from @BotFather"
+        },
+        "TELEGRAM_TOKEN5": {
+        "description": "Get this value from @BotFather"
+        },
+        "TELEGRAM_APP_HASH":{
+            "description": "Get this value from https://my.telegram.org"
+        },
+        "TELEGRAM_APP_ID":{
+            "description": "Get this value from https://my.telegram.org"
+        }
+    },
+    "formation": {
+            "worker": {
+                "quantity": 1,
+                "size": "free"
+            }
+        }
+  }
